@@ -1,0 +1,47 @@
+/* src/pages/FitnessCenterDetails.css */
+
+.fitness-center-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.details-row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.details-label {
+    font-weight: bold;
+    width: 250px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.details-value {
+    flex: 1;
+}
+
+.comments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-item {
+    margin-bottom: 10px;
+}
+
+.comment-item strong {
+    color: #333;
+}
